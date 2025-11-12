@@ -1,0 +1,32 @@
+# BUILD & IDE FILES
+
+target/
+.idea/
+*.iml
+*.class
+*.log
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# MAVE CACHE
+
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# ENVIRONMENT VARIABLES
+
+.env
+
+# LOGS
+
+/logs
+*.log
+spring.log
+
+# DOCKER
+
+/pgdata
+docker-compose.override.yml
